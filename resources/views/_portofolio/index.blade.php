@@ -7,12 +7,12 @@
 
         <!-- Hero Section Start -->
         <section id="home" class="hero-section hero-1">
-          <div class="bg-image bg-cover" style="background-image: url(images/home-1/hero/hero-01.jpg)"></div>
+          <div class="bg-image bg-cover" style="background-image: url({{ asset('portofolio/assets/images/home-1/hero/hero-01.jpg') }})"></div>
           <div class="shape">
             <img class="arrow-shape" src="images/home-1/hero/arrow-shape.png" alt="" />
-            <img class="shape-1" src="images/home-1/hero/shape-01.png" alt="" />
-            <img class="shape-2" src="images/home-1/hero/shape-02.png" alt="" />
-            <img class="shape-3" src="images/home-1/hero/shape-03.png" alt="" />
+            <img class="shape-1" src="{{asset('portofolio/assets/images/home-1/hero/shape-01.png')}}" alt="" />
+            <img class="shape-2" src="{{asset('portofolio/assets/images/home-1/hero/shape-02.png')}}" alt="" />
+            <img class="shape-3" src="{{asset('portofolio/assets/images/home-1/hero/shape-03.png')}}" alt="" />
           </div>
           <div class="social-link ks_fade_anim" data-delay=".3" data-fade-from="left">
             <ul class="list">
@@ -74,7 +74,7 @@
         <!-- / About Section Start  /-->
         <section id="about" class="about-wrapper about-1 section-padding section-bg">
           <div class="shape">
-            <img src="images/home-1/about/shape-02.png" class="shape-2" alt="">
+            <img src="{{ asset('portofolio/assets/images/home-1/about/shape-02.png') }}" class="shape-2" alt="">
           </div>
           <div class="auto-container">
             <div class="row">
@@ -89,14 +89,14 @@
               </div>
               <div class="offset-xxl-1 col-xl-2">
                 <div class="shape">
-                  <img class="shape-1" src="images/home-1/about/shape-01.png" alt="" />
+                  <img class="shape-1" src="{{ asset('portofolio/assets/images/home-1/about/shape-01.png') }}" alt="" />
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-xl-4 col-lg-4 col-md-12">
                 <div class="about-image ks_fade_anim" data-delay=".3" data-fade-from="left">
-                  <img src="images/home-1/about/about-image-01.jpg" alt="" />
+                  <img src="{{ asset('portofolio/assets/images/home-1/about/about-image-01.jpg') }}" alt="" />
                 </div>
               </div>
               <div class="offset-xl-1 col-xl-7 col-lg-8 col-md-12">
@@ -125,7 +125,7 @@
                       </a>
                     </div>
                     <div class="image-1">
-                      <img src="images/home-1/about/about-image-02.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/about/about-image-02.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -137,7 +137,7 @@
         <!-- / Service Section Start  /-->
         <section id="services" class="service-wrapper service-one section-padding">
           <div class="shape">
-            <img class="shape-2" src="images/home-1/service/shape-02.png" alt="" />
+            <img class="shape-2" src="{{ asset('portofolio/assets/images/home-1/service/shape-02.png') }}" alt="" />
           </div>
           <div class="auto-container">
             <div class="service-one">
@@ -154,7 +154,7 @@
                     <div class="swiper-slide">
                       <div class="service-one">
                         <div class="card-style">
-                          <img class="shape-1" src="images/home-1/service/shape-01.png" alt="" />
+                          <img class="shape-1" src="{{ asset('portofolio/assets/images/home-1/service/shape-01.png') }}" alt="" />
                           <div class="head">
                             <div class="icon-2">
                               <i class="flaticon-tech flaticon-tech-interaction-1"></i>
@@ -181,7 +181,7 @@
                     <div class="swiper-slide">
                       <div class="service-one">
                         <div class="card-style">
-                          <img class="shape-1" src="images/home-1/service/shape-01.png" alt="" />
+                          <img class="shape-1" src="{{ asset('portofolio/assets/images/home-1/service/shape-01.png') }}" alt="" />
                           <div class="head">
                             <div class="icon-2">
                               <i class="flaticon-tech-Choose-marketing-1"></i>
@@ -208,7 +208,7 @@
                     <div class="swiper-slide">
                       <div class="service-one">
                         <div class="card-style">
-                          <img class="shape-1" src="images/home-1/service/shape-01.png" alt="" />
+                          <img class="shape-1" src="{{ asset('portofolio/assets/images/home-1/service/shape-01.png') }}" alt="" />
                           <div class="head">
                             <div class="icon-2">
                               <i class="flaticon-tech flaticon-tech-branding-1"></i>
@@ -244,7 +244,7 @@
               <div class="clint-style">
                 <h5 class="clint-text"><span>2k</span> Happy Clients of Our Services</h5>
                 <div class="avater">
-                  <img src="images/home-1/service/avater-01.png" alt="" />
+                  <img src="{{ asset('portofolio/assets/images/home-1/service/avater-01.png') }}" alt="" />
                   <div class="icon">
                     <i class="fa-solid fa-plus"></i>
                   </div>
@@ -281,7 +281,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-01.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-01.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -295,7 +295,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-02.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-02.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -309,7 +309,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-03.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-03.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -323,7 +323,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-04.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-04.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-05.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-05.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -355,7 +355,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-06.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-06.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -369,7 +369,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-07.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-07.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -383,7 +383,7 @@
                       <a href="page-project-details.html" class="icon"><i class="fa-light fa-arrow-right-long"></i></a>
                     </div>
                     <div class="image">
-                      <img src="images/home-1/case/case-08.jpg" alt="" />
+                      <img src="{{ asset('portofolio/assets/images/home-1/case/case-08.jpg') }}" alt="" />
                     </div>
                   </div>
                 </div>
@@ -452,31 +452,31 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item">
-                    <img src="images/home-1/marquee-shape-01.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-01.png')}}" alt="" />
                     <span class="title">Smart & Efficient</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item">
-                    <img src="images/home-1/marquee-shape-01.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-01.png')}}" alt="" />
                     <span class="title">Powerful Performance</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item">
-                    <img src="images/home-1/marquee-shape-01.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-01.png')}}" alt="" />
                     <span class="title">Research marketing</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item">
-                    <img src="images/home-1/marquee-shape-01.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-01.png')}}" alt="" />
                     <span class="title">Website marketing</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item">
-                    <img src="images/home-1/marquee-shape-01.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-01.png')}}" alt="" />
                     <span class="title">Lifetime Update</span>
                   </div>
                 </div>
@@ -488,43 +488,43 @@
               <div class="swiper-wrapper slide-transtion">
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Digital Agency</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Digital Excellence</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Smart & Efficient</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Powerful Performance</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Research marketing</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Website marketing</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="marquee-one__single-item style-1">
-                    <img src="images/home-1/marquee-shape-02.png" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/marquee-shape-02.png')}}" alt="" />
                     <span class="title">Lifetime Update</span>
                   </div>
                 </div>
@@ -547,7 +547,7 @@
               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 ks_fade_anim" data-delay=".3">
                 <div class="team-one__single-card style-2 ">
                   <div class="image">
-                    <img src="images/home-1/team/team-01.jpg" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/team/team-01.jpg')}}" alt="" />
                   </div>
                   <div class="content">
                     <div class="social-link">
@@ -564,7 +564,7 @@
               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 ks_fade_anim" data-delay=".4">
                 <div class="team-one__single-card ">
                   <div class="image">
-                    <img src="images/home-1/team/team-02.jpg" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/team/team-02.jpg')}}" alt="" />
                   </div>
                   <div class="content">
                     <div class="social-link">
@@ -581,7 +581,7 @@
               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 ks_fade_anim" data-delay=".5">
                 <div class="team-one__single-card style-2 ">
                   <div class="image">
-                    <img src="images/home-1/team/team-03.jpg" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/team/team-03.jpg')}}" alt="" />
                   </div>
                   <div class="content">
                     <div class="social-link">
@@ -598,7 +598,7 @@
               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 ks_fade_anim" data-delay=".6 ">
                 <div class="team-one__single-card">
                   <div class="image">
-                    <img src="images/home-1/team/team-04.jpg" alt="" />
+                    <img src="{{asset('portofolio/assets/images/home-1/team/team-04.jpg')}}" alt="" />
                   </div>
                   <div class="content">
                     <div class="social-link">
@@ -618,10 +618,10 @@
 
         <!-- Award Section Start -->
         <section class="award-wrappper award-one section-padding section-bg-2">
-          <div class="award-one__bg-image" style="background-image: url('images/home-1/award/award-bg-01.png')"></div>
+          <div class="award-one__bg-image" style="background-image: url('{{ asset('portofolio/assets/images/home-1/award/award-bg-01.png') }}')"></div>
           <div class="shape">
-            <img src="images/home-1/award/shape-01.png" alt="" class="shape-2" />
-            <img src="images/home-1/award/shape-02.png" alt="" class="shape-3" />
+            <img src="{{asset('portofolio/assets/images/home-1/award/shape-01.png')}}" alt="" class="shape-2" />
+            <img src="{{asset('portofolio/assets/images/home-1/award/shape-02.png')}}" alt="" class="shape-3" />
           </div>
           <div class="auto-container">
             <div class="section-title">
@@ -634,7 +634,7 @@
             <div class="row">
               <div class="col-xl-6 col-lg-12  ks_fade_anim" data-delay=".4" data-fade-from="top">
                 <div class="award-one__single-card ">
-                  <img class="shape-1" src="images/home-1/award/award-shape-1.png" alt="" />
+                  <img class="shape-1" src="{{asset('portofolio/assets/images/home-1/award/award-shape-1.png')}}" alt="" />
                   <div class="content-left d-flex align-items-center">
                     <div class="icon">
                       <i class="flaticon-tech flaticon-tech-trophy-1-1"></i>
@@ -663,7 +663,7 @@
               </div>
               <div class="col-xl-6 col-lg-12  ks_fade_anim" data-delay=".5" data-fade-from="top">
                 <div class="award-one__single-card style-3 ">
-                  <img class="shape-1" src="images/home-1/award/award-shape-1.png" alt="" />
+                  <img class="shape-1" src="{{asset('portofolio/assets/images/home-1/award/award-shape-1.png')}}" alt="" />
                   <div class="content-left d-flex align-items-center">
                     <div class="icon">
                       <i class="flaticon-tech flaticon-tech-gold-medal-1"></i>
@@ -697,7 +697,7 @@
         <!-- Testimonial Section Start -->
         <section id="testimonial" class="testimonial-wrapper testimonial-one section-padding section-bg">
           <div class="testimonial-one__bg-image"
-            style="background-image: url('images/home-1/testimonial/bg-shape-01.png')">
+            style="background-image: url('{{ asset('portofolio/assets/images/home-1/testimonial/bg-shape-01.png') }}')">
           </div>
           <div class="auto-container">
             <div class="section-title text-center">
@@ -711,8 +711,8 @@
               <div class="col-xl-3 col-lg-4 col-md-12">
                 <div class="testimonial-one__clints-box">
                   <div class="image">
-                    <img src="images/home-1/testimonial/client-01.png" alt="" />
-                    <img class="shape-1" src="images/home-1/testimonial/shape-01.png" alt="" />
+                    <img src="{{ asset('portofolio/assets/images/home-1/testimonial/client-01.png') }}" alt="" />
+                    <img class="shape-1" src="{{ asset('portofolio/assets/images/home-1/testimonial/shape-01.png') }}" alt="" />
                   </div>
                   <div class="rating">
                     <h3 class="num">4.7</h3>
@@ -734,7 +734,7 @@
                       <div class="swiper-slide">
                         <div class="testimonial-one__single-card">
                           <div class="quata">
-                            <img src="images/home-1/testimonial/shape-02.png" alt="" />
+                            <img src="{{ asset('portofolio/asset/images/home-1/testimonial/shape-02.png') }}" alt="" />
                           </div>
                           <p class="text">Exceeded all expectations with their exceptional service and expertise. Their dedication and professionalism made the entire process seamless and rewarding. I highly recommend them for outstanding results!</p>
                           <div class="clints-info">
@@ -746,7 +746,7 @@
                       <div class="swiper-slide">
                         <div class="testimonial-one__single-card">
                           <div class="quata">
-                            <img src="images/home-1/testimonial/shape-02.png" alt="" />
+                            <img src="{{ asset('portofolio/assets/images/home-1/testimonial/shape-02.png') }}" alt="" />
                           </div>
                           <p class="text">Exceeded all expectations with their exceptional service and expertise. Their dedication and professionalism made the entire process seamless and rewarding. I highly recommend them for outstanding results!</p>
                           <div class="clints-info">
@@ -758,7 +758,7 @@
                       <div class="swiper-slide">
                         <div class="testimonial-one__single-card">
                           <div class="quata">
-                            <img src="images/home-1/testimonial/shape-02.png" alt="" />
+                            <img src="{{ asset('portofolio/assets/images/home-1/testimonial/shape-02.png') }}" alt="" />
                           </div>
                           <p class="text">Exceeded all expectations with their exceptional service and expertise. Their dedication and professionalism made the entire process seamless and rewarding. I highly recommend them for outstanding results!</p>
                           <div class="clints-info">

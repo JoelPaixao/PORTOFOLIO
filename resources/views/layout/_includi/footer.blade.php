@@ -3,8 +3,8 @@
           <div class="footer-one__bg-image bg-cover" style="background-image: url(images/home-1/footer/footer-bg.png);">
           </div>
           <div class="shape">
-            <img  class="shape-1" src="images/home-1/footer/shape%2001.png" alt="" />
-            <img class="shape-2" src="images/home-1/footer/shape%2002.png" alt=""  />
+            <img  class="shape-1" src="{{asset('portofolio/assets/images/home-1/footer/shape%2001.png')}}" alt="" />
+            <img class="shape-2" src="{{asset('portofolio/assets/images/home-1/footer/shape%2002.png')}}" alt=""  />
           </div>
           <div class="auto-container">
             <div class="row">
@@ -114,7 +114,8 @@
     </div>
   </div>
   <!-- End Page Wrapper -->
-  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
+  <script data-cfasync="false" src="{{asset('../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js')}}"></script>
+  <script src="{{ asset('portofolio/assets/js/jquery.js') }}"></script>
   <script src="{{asset('portofolio/assets/js/popper.min.js')}}"></script>
   <script src="{{asset('portofolio/assets/js/bootstrap.min.js')}}"></script>
   <script src="{{asset('portofolio/assets/js/jquery.fancybox.js')}}"></script>
@@ -136,7 +137,7 @@
   <script src="{{asset('portofolio/assets/js/mixitup.js')}}"></script>
   <script src="{{asset('portofolio/assets/js/script.js')}}"></script>
 
-    
+
   <!-- form submit -->
   <script src="{{asset('portofolio/assets/js/jquery.validate.min.js')}}"></script>
   <script src="{{asset('portofolio/assets/js/jquery.form.min.js')}}"></script>

@@ -9,7 +9,7 @@
             <div class="nav-outer">
               <div class="logo-box">
                 <div class="logo">
-                  <a href="index.html"><img src="images/white-logo.png" alt="" title="techix" /></a>
+                  <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="" title="techix" /></a>
                 </div>
               </div>
               <div class="outer-box">
@@ -51,7 +51,7 @@
         <nav class="menu-box">
           <div class="upper-box">
             <div class="nav-logo">
-              <a href="index.html"><img src="images/white-logo.png" alt="" /></a>
+              <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="" /></a>
             </div>
             <div class="close-btn"><i class="icon fa fa-times"></i></div>
           </div>
@@ -118,7 +118,7 @@
           <div class="inner-container">
             <!--Logo-->
             <div class="logo">
-              <a href="index.html"><img src="images/white-logo.png" alt="img" /></a>
+              <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="img" /></a>
             </div>
             <!--Right Col-->
             <div class="nav-outer">

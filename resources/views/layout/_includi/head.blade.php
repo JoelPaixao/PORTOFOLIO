@@ -11,8 +11,8 @@
 <link href="{{asset('portofolio/assets/css/style.css')}}" rel="stylesheet" />
 <link href="{{asset('portofolio/assets/css/responsive.css')}}" rel="stylesheet" />
 
-<link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
-<link rel="icon" href="images/favicon.svg" type="image/x-icon" />
+<link rel="shortcut icon" href="{{asset('portofolio/assets/images/favicon.svg')}}" type="image/x-icon" />
+<link rel="icon" href="{{asset('portofolio/assets/images/favicon.svg')}}" type="image/x-icon" />
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,8 +29,9 @@
       </div>
     </div>
 
-    <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
+    <!-- iniciar Preloader -->
+    
+    {{-- <div id="preloader" class="preloader">
       <div class="animation-preloader">
         <div class="spinner"></div>
         <div class="txt-loading">
@@ -59,7 +60,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <!-- Scroll To Top -->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
