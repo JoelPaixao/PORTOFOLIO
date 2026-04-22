@@ -1,37 +1,27 @@
 <!-- Main Header-->
     <header class="main-header header-style-one header-1">
       <div class="auto-container">
-        <!-- Header Lower -->
+        <!-- Header baixo -->
         <div class="header-lower">
-          <!-- Main box -->
+          <!-- Caixa Principal -->
           <div class="main-box">
             <!--Nav Box-->
             <div class="nav-outer">
               <div class="logo-box">
-                <div class="logo">
-                  <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="" title="techix" /></a>
-                </div>
               </div>
               <div class="outer-box">
                 <nav class="nav main-menu">
                   <ul class="navigation onepage-nav">
                     <li class="current"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#testimonial">Testimonial</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#news">News</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#project">Projectos</a></li>
+                    <li><a href="#thing">Destaques</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                   </ul>
                 </nav>
                 <!-- Main Menu End-->
               </div>
               <div class="nav-right">
-                <button class="ui-btn search-btn">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <a href="page-contact.html" class="header-btn">Let's Talk</a>
-                <!-- Mobile Nav toggler -->
                 <div class="mobile-nav-toggler d-flex d-xl-none style-2">
                   <span></span>
                   <span></span>
@@ -50,9 +40,9 @@
         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
         <nav class="menu-box">
           <div class="upper-box">
-            <div class="nav-logo">
+            {{-- <div class="nav-logo">
               <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="" /></a>
-            </div>
+            </div> --}}
             <div class="close-btn"><i class="icon fa fa-times"></i></div>
           </div>
 
@@ -64,33 +54,23 @@
               <!-- Contact Info Box -->
               <div class="contact-info-box">
                 <i class="icon lnr-icon-phone-handset"></i>
-                <span class="title">Call Now</span>
-                <a href="tel:+92880098670">+92 (8800) - 98670</a>
+                <span class="title">Liga Agora</span>
+                <a href="tel:+92880098670">+244 942 182 413</a>
               </div>
             </li>
             <li>
               <!-- Contact Info Box -->
               <div class="contact-info-box">
                 <span class="icon lnr-icon-envelope1"></span>
-                <span class="title">Send Email</span>
+                <span class="title">Enviar e-mail</span>
                 <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#e189848d91a1828e8c91808f98cf828e8c"><span class="__cf_email__" data-cfemail="0f676a637f4f6c60627f6e6176216c6062">[email&#160;protected]</span></a>
-              </div>
-            </li>
-            <li>
-              <!-- Contact Info Box -->
-              <div class="contact-info-box">
-                <span class="icon lnr-icon-clock"></span>
-                <span class="title">Send Email</span>
-                Mon - Sat 8:00 - 6:30, Sunday - CLOSED
               </div>
             </li>
           </ul>
 
           <ul class="social-links">
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -118,7 +98,7 @@
           <div class="inner-container">
             <!--Logo-->
             <div class="logo">
-              <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="img" /></a>
+              {{-- <a href="index.html"><img src="{{ asset('portofolio/assets/images/white-logo.png') }}" alt="img" /></a> --}}
             </div>
             <!--Right Col-->
             <div class="nav-outer">
@@ -140,7 +120,7 @@
                 <span></span>
                 <span></span>
               </div>
-              <a href="page-contact.html" class="header-btn">Let's Talk</a>
+              {{-- <a href="page-contact.html" class="header-btn">Let's Talk</a> --}}
             </div>
           </div>
         </div>

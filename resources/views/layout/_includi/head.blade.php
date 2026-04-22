@@ -5,7 +5,7 @@
 <!-- Mirrored from html.kodesolution.com/2025/techix-html/index-1-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Oct 2025 09:41:48 GMT -->
 <head>
 <meta charset="utf-8" />
-<title>Techix - Techonology Html Template Single</title>
+<title>Portfólio</title>
 <!-- Stylesheets -->
 <link href="{{asset('portofolio/assets/css/bootstrap.min.css')}}" rel="stylesheet" />
 <link href="{{asset('portofolio/assets/css/style.css')}}" rel="stylesheet" />
@@ -30,7 +30,7 @@
     </div>
 
     <!-- iniciar Preloader -->
-    
+
     {{-- <div id="preloader" class="preloader">
       <div class="animation-preloader">
         <div class="spinner"></div>
